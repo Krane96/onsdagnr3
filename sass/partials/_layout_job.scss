@@ -1,0 +1,15 @@
+@use 'variables';
+
+p {
+      line-height: 30px;
+      color: variables.$textColor;
+      text-align: left;
+      max-width: 450px;
+      margin: auto;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.container2{
+    background-color: variables.$containerColor;
+}

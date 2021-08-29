@@ -1,2 +1,8 @@
-$backgroundColor: #212529;
-$textColor: whitesmoke;
+$backgroundColor: white;
+$textColor: black;
+$containerColor: #212529;
+
+@mixin buttonStyle {
+    border-radius: 5px;
+    background-color: black;
+}
