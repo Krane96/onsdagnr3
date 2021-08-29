@@ -1,0 +1,26 @@
+@use 'variables';
+@use 'mixins';
+
+p {
+    color: variables.$textColor;
+    @include mixins.paragraphs();
+    color: whitesmoke;
+    padding: 10px;
+}
+
+.container2{
+    background-color: variables.$containerColor;
+    @include mixins.containerTwo();
+}
+
+.container2 img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+}
+
+.container2 h1{
+    color: whitesmoke;
+    padding: 20px 0 0 0;
+}

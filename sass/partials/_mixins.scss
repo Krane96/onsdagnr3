@@ -1,0 +1,40 @@
+@use 'variables';
+
+@mixin standardButton{
+    border-radius: 5px;
+    background-color: black;
+    color: whitesmoke;
+    font-size: 1.4em;
+    text-decoration: none;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    margin: 20px auto;
+    justify-content: center;
+}
+
+
+@mixin hoverButton{
+    background-color: rgba(0, 0, 0, 0.8);
+    transition: 0.4s;
+}
+
+@mixin paragraphs{
+    line-height: 30px;
+    color: variables.$textColor;
+    text-align: left;
+    max-width: 450px;
+    margin: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@mixin containerTwo{
+    height: 600px;
+    width: 100%;
+    margin-top: 50px;
+
+}
+@mixin semiBoldFont{
+    font-weight: 600;
+}
